@@ -18,8 +18,7 @@
 - (void)createSubViews{
     
 }
-- (void)setModel:(id)model{
-}
+
 - (UILabel *)createLabelWithColor:(UIColor *)color{
     UILabel *lab = [[UILabel alloc] init];
     lab.font = [UIFont systemFontOfSize:18];

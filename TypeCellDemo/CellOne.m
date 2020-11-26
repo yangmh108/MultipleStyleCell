@@ -31,7 +31,7 @@
     self.dateLab.frame = CGRectMake(SCREEN_WIDTH - 150, 40, 100, 30);
     self.redView.frame = CGRectMake(10, 40, SCREEN_WIDTH - 165, self.contentView.frame.size.height - 50);
 }
--(void)setModel:(id)model{
+- (void)setModel:(id<ModelConfigProtocol>)model{
     ModelOne *currenModel = (ModelOne *)model;
     self.titleLab.text = currenModel.title;
     self.dateLab.text = currenModel.date;

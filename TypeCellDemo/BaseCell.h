@@ -13,7 +13,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BaseCell : UITableViewCell
-@property (nonatomic,strong) id model;
+@property (nonatomic,strong) id <ModelConfigProtocol> model;
 - (void)createSubViews;
 - (UILabel *)createLabelWithColor:(UIColor *)color;
 - (UIView *)createViewWithColor:(UIColor *)color;

@@ -20,6 +20,6 @@
     return 100;
 }
 - (void)cellDidSelectRowAtIndexPath:(NSIndexPath *)indexPath other:(id)other{
-    NSLog(@"点击了第一种cell");
+    NSLog(@"点击了第一种cell\n标题:%@",self.title);
 }
 @end
